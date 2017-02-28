@@ -38,8 +38,8 @@ public class Homework1 {
     System.out.println("===Problem 2===");
     // Uncomment to print the results of calling your topInt method with the following input:
     //System.out.println(hw1.topInt(1.5));
-    //System.out.println(hw1.topInt(5.1));
-    // System.out.println(hw1.topInt(1.0));
+    System.out.println(hw1.topInt(5.1));
+     //System.out.println(hw1.topInt(1.0));
     // System.out.println(hw1.topInt(-4.2));
 
 
@@ -159,7 +159,7 @@ public class Homework1 {
 
     double b = Math.round(a);
     double c = a-b;
-    if(c>=0.5) {
+    if(c>0.0) {
       return b+1;
    }else {
       return b;
