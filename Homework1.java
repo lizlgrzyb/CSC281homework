@@ -143,8 +143,8 @@ public class Homework1 {
    */
 
  /**
-   * This method accurately rounds numbers. Numbers with a decimal of 0.5 or greater
-   * are rounded up, and numbers with a decimal point less than 0.5 are rounded down.
+   * This method accurately rounds numbers. Numbers with a decimal greater than 0.0 are
+   * are rounded up, and numbers with a decimal point less than or equal to 0.0 are rounded down.
    * Vice-versa for negatives.
    * @param a Initial input.
    * @param b a converted to int(rounded down by default.
