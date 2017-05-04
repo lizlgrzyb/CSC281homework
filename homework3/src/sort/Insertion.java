@@ -1,4 +1,9 @@
 package sort;
+/**This section keeps track of the number of assignments and sends
+ * the value back to be printed. 
+ * @param selectionCountD and @param selectionCountA are counters to keep track of the number
+ * of assignments
+ */
 
 public class Insertion{
   

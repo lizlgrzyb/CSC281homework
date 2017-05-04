@@ -1,4 +1,9 @@
 package sort; 
+/**This section keeps track of the number of assignments and sends
+ * the value back to be printed. 
+ * @param insertionCountD and @param insertionCountA are counters to keep track of the number
+ * of assignments
+ */
 
 public class Selection { 
   public static int[] ascending(int a[]) {

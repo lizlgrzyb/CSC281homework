@@ -5,6 +5,11 @@
  */
 package sort; 
 
+/**This section keeps track of the number of assignments and sends
+ * the value back to be printed. 
+ * @param bubbleCountD and @param bubbleCountA are counters to keep track of the number
+ * of assignments
+ */
 public class Bubble{
 
   public static void Descending(int[] intArray) {
@@ -15,7 +20,7 @@ public class Bubble{
     for(int i=0; i < n; i++){
       for(int j=1; j < (n-i); j++){
         if(intArray[j-1] < intArray[j]){
-	  bubbleCountD++;
+	  bubbleCountD++; //Adding to assignment count
           temp = intArray[j-1];
           intArray[j-1] = intArray[j];
           intArray[j] = temp;
